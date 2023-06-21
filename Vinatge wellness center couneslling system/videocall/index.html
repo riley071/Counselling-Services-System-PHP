@@ -1,0 +1,20 @@
+<html>
+<body>
+
+    <div id="root"></div> 
+</body>
+
+<!-- this is the code for video chat -->
+<script src="https://resource.zegocloud.com/prebuilt/crypto-js.js"></script>
+<script src="https://resource.zegocloud.com/prebuilt/prebuiltToken.js"></script>
+<script src="https://zegocloud.github.io/zegocloud_prebuilt_webrtc/ZegoPrebuilt/index.umd.js"></script>
+<script>
+
+const TOKEN = generatePrebuiltToken(2027467606,"ae62d6a2328145b59d922ae729771fd7",'room2','UserID-' + Math.random(),'name'+ Math.random());
+
+const zp = ZegoUIKitPrebuilt.create(TOKEN);
+zp.joinRoom({
+    container : document.querySelector("#root"),
+});
+</script>
+</html>
