@@ -52,7 +52,8 @@ be mailed to a psychologist for evaluation.
 
 If you are Admin,doctor or patient ,only have one page to login :)
 
-  ![Capture](https://github.com/riley071/Counselling-Services-System-PHP/assets/81653537/50b5aa83-37bf-441a-9bd1-0e36c074f4f2)
+ ![8](https://github.com/riley071/Counselling-Services-System-PHP/assets/81653537/bf63dc65-2e0f-4a84-9ea8-be6271c75da3)
+
 
 -----------------------------------------------
 
