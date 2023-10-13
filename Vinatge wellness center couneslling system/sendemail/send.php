@@ -12,7 +12,7 @@ if(isset($_POST["send"])){
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'emzomatewere@gmail.com';   
+    $mail->Username = '';   
     $mail->Password = 'jihhxcrfsoacepnl';
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
